@@ -1,0 +1,51 @@
+# 설치: source .venv/bin/activate 후 pip install -r requirements.txt
+# 모든 버전은 실제로 설치해 동작을 확인한 버전으로 고정한다.
+
+# OpenAI·설정·웹 가져오기
+openai==3.46.0
+pydantic==2.14.3
+python-dotenv==1.2.4
+requests==2.34.2
+beautifulsoup4==4.15.0
+
+# 자막 그림 (S7), 화면 합성 (S8)
+pillow==13.0.0
+
+# 화이트보드 드로잉 효과 (S8 draw_effect = "whiteboard")
+# whiteboard-animator는 내부 함수를 쓰므로 0.1.1로 고정 (라이선스: NOTICE.md)
+whiteboard-animator==0.1.1
+opencv-python-headless==4.14.0.94   # 4.x로 고정 (5.x와의 호환성은 확인 안 됨)
+numpy==2.5.4
+scipy==1.18.1
+scikit-image==0.26.0
+onnxruntime==1.31.1
+tifffile==2026.10.15                # 최신판(2026.11.8, 배포 직후)은 피하고 이전 판으로 고정
+imageio==2.38.1
+lazy-loader==0.6
+networkx==3.7
+packaging==26.3
+protobuf==7.36.2
+flatbuffers==25.12.19
+
+# 데모 페이지 (demo/app.py, streamlit run demo/app.py)
+streamlit==1.67.0
+altair==6.3.0
+click==8.5.1
+itsdangerous==2.2.0
+pandas==3.1.1
+pyarrow==26.0.1
+pydeck==0.9.3
+python-multipart==0.0.33
+starlette==1.10.0
+uvicorn==0.54.0
+websockets==17.4
+Jinja2==3.1.6
+jsonschema==4.26.0
+attrs==26.1.0
+jsonschema-specifications==2025.9.1
+MarkupSafe==3.0.4
+narwhals==2.28.0
+python-dateutil==4.0.0
+referencing==0.37.0
+rpds-py==2026.9.1
+tzdata==2026.6

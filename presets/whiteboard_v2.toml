@@ -1,0 +1,15 @@
+# 스타일 프리셋 whiteboard_v2
+# S4에서 모든 장면의 이미지 프롬프트 끝에 아래 문장을 똑같이 붙여 그림체를 맞춘다.
+# v1과 다른 점: 성인 캐릭터, 빗금·음영선 금지, 한 장면·칸 나누기 금지. 나머지(흰 배경, 검은 선, 글자 금지)는 같음.
+
+name = "whiteboard_v2"
+description = "흰 배경, 검은색 단색 마커 선화, 글자 없음, 성인 캐릭터 한 명, 한 장면"
+
+# 사람이 나오는 장면에만 붙는다 (uses_character = true)
+character = "The main character is an adult in their late 20s to 30s, a young professional preparing for an exam, with an oval face, dot eyes, a small smile and short neat hair, wearing a plain collared shirt, drawn with a few simple lines. Draw the main character only once in the picture. Keep exactly the same character design in every scene."
+
+# 모든 장면에 붙는다
+style = "Style: whiteboard marker line drawing on a pure white background. Black lines only, one single color. Clean, even line weight like a whiteboard marker. No shading, no hatching, no cross-hatching, no shading lines, no cross-section patterns, no gradients, no color fills, no textures. One single scene: no panels, no split screen, no inset pictures. At most 3 main subjects in the center and plenty of empty white space. Hand-drawn explainer video look. Vertical portrait composition."
+
+# 모든 장면에 붙는다
+no_text = "Do not draw any letters, words, captions, labels, signs, tables, charts or rows of numbers. At most one simple symbol."

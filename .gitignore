@@ -1,0 +1,8 @@
+.env
+.venv/
+outputs/
+.DS_Store
+scratch/
+samples/
+__pycache__/
+inputs/

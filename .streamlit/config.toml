@@ -1,0 +1,11 @@
+# 데모 페이지(Streamlit) 설정
+[server]
+address = "127.0.0.1"      # 이 Mac에서만 접속 (인터넷·같은 와이파이의 다른 기기에서 접속 불가)
+port = 8501
+headless = false
+
+[browser]
+gatherUsageStats = false   # Streamlit 사용 통계 전송 끔
+
+[client]
+toolbarMode = "minimal"    # 오른쪽 위 'Deploy'(인터넷 공개 배포) 버튼 숨김
